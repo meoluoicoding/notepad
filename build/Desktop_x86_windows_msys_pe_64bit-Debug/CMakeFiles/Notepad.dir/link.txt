@@ -1,0 +1,3 @@
+C:\Users\Administrator\scoop\apps\cmake\3.31.0\bin\cmake.exe -E rm -f CMakeFiles\Notepad.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Notepad.dir/objects.a @CMakeFiles\Notepad.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -DQT_QML_DEBUG -g -Wl,--whole-archive CMakeFiles\Notepad.dir/objects.a -Wl,--no-whole-archive -o Notepad.exe -Wl,--out-implib,libNotepad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Notepad.dir\linkLibs.rsp
